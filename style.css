@@ -1,0 +1,140 @@
+
+
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+/*--------------------------------------- corp------------------------------------------------ */
+body{
+    background: url(images/citations-sur-la-lecture-vector-hugo.png) no-repeat;
+    background-size: 100%;
+    
+}
+
+
+/*------------------------------(header)---(btn) bouton de navigation---------------------------------  */
+nav.menu-nav ul li.btn{
+    display: inline-block;
+    list-style-type:none ;
+    
+}
+/*-------------------------(header)----(btn) bouton de navigation + texte---------------------------- */
+nav.menu-nav ul li.btn a{
+    
+    text-decoration: none;
+    
+    background-color: rgba(135, 216, 115, 0);
+    padding: 10px;
+    border-radius: 20px;
+    color:black;
+    
+    
+}
+
+
+
+nav.menu-nav ul li.btn:hover a{
+    color: red;
+    background-color: white;
+    /* ------------------(header)----------transition animation des onglets--------------------------- */
+    transition:0.3s ;
+
+}
+/*-------------------------------------------- haut de page----------------------------------------------- */
+/* header{
+    background-color: blue;
+} */
+/* div#content{
+    background-color:rgb(11, 104, 23);
+
+} */
+
+section {
+    text-align: center;
+    justify-content: space-around;
+}
+
+/* ciblé toute les Div */
+
+div#content div{
+    display: inline-block;
+    width: 48%;
+
+
+}
+
+
+/* ciblé que la div.leftbox */
+div#content div.leftbox{
+    background-color:yellow;
+   
+
+}
+
+div#content div.leftbox h1{
+    
+   
+    font-size: 100px;
+    width: 200px;
+    margin: auto;
+
+    
+}
+
+
+
+div#content div h1, h3, p{
+    /* background-color: brown; */
+    margin: 50px;
+    
+}
+ div#content div h1.titre{
+    color: #000;
+
+ }
+    
+
+    
+
+
+/* ciblé que la div.rightbox */
+div#content div.rightbox{
+    background-color: blueviolet;
+    
+    
+    
+
+}
+
+/* h1.titre{
+    font-size: 100px;
+    
+    
+}
+
+
+p.citation{
+    color: #000;
+    font-weight: bold;
+} */
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------------pied de page---------------------------------------------- */
+footer{
+    background-color: rgb(109, 105, 105) ;
+}
+
+
+
+
+
